@@ -1,0 +1,30 @@
+a:link { 
+  color: black;
+}
+a:visited { 
+  color: #8b4513;
+}
+a:hover { 
+  color: #ba7958;
+}
+a:active { 
+  color: #333333;
+}
+
+a {
+	font-family: gandhi;
+	font-size: 15pt;
+}
+
+html, body{
+    height:100%; /* important to vertically align the container */
+    margin:0;
+    padding:0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/72x72/1f642.png">       */
+  display: flex;
+  align-items: center;
+}

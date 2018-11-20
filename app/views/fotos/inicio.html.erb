@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% content_for :head do %>
+	   <%= stylesheet_link_tag :inicio -%>
+	<% end %>
+</head>
+<body>
+	<div class="vertical-center" >
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-12">
+	        <div class="text-center">
+				<img src="assets/che.jpg" >
+			</div>
+			<div id="links" class="text-center">
+				<%=link_to "Fotos |", '/fotos'%>
+				<%=link_to "Bio |", '/bio'%>
+				<%=link_to "Contacto", '/contacto'%>
+			</div>        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+</html>
+
+
+
+
