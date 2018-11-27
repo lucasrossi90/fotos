@@ -7,6 +7,14 @@
     <%= yield :head %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <nav class="navbar sticky-top navbar-light bg-white">
+          <a id='inicio' class="nav-item nav-link active izquierda" href="/fotos">incio <span class="sr-only">(current)</span></a>
+          <a id='bio' class="nav-item nav-link izquierda" href="/bio">bio</a>
+          <img src="assets/logo1.jpg" width="95" height="39"  alt="">
+          <a id='contacto' class="nav-item nav-link disabled" href="/contacto">contacto</a>
+    </nav>
+      
   </head>
 
   <body>

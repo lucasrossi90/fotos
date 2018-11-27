@@ -13,3 +13,25 @@
 
  */
  @import "bootstrap";
+
+.navbar {
+    border-bottom: 1px solid black;
+ }
+
+#contacto {
+	float: right;
+}
+
+#inicio #bio  {
+	float: left;
+}
+
+nav img {
+	text-align: center;
+}
+
+nav a {
+	font-size: 10px;
+	font-color: black;
+}
+

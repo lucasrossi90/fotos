@@ -1,15 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Fotos</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Album</th>
-      <th>Position</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
   <tbody>
     <% @fotos.each do |foto| %>
@@ -26,4 +17,3 @@
 
 <br>
 
-<%= link_to 'New Foto', new_foto_path %>
